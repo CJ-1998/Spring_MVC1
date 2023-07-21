@@ -14,7 +14,7 @@ public class ResponseHtmlServlet extends HttpServlet {
         //Content-Type: text/html;charset=utf-8
         response.setContentType("text/html");
         response.setCharacterEncoding("utf-8");
-        
+
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
         writer.println("<body>");
